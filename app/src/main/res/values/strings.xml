@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">ActivityWeek4</string>
+    <string name="userName">Username</string>
+    <string name="passWord">Password</string>
+    <string name="logIn">Login</string>
+    <string name="socialLogin">Social Login</string>
+</resources>
