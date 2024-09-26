@@ -5,7 +5,6 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-
     tools:ignore="LabelFor"
     tools:context=".MainActivity">
 <LinearLayout
@@ -18,13 +17,14 @@
 
     <!-- TextView for displaying the toast message -->
     <TextView
-    android:id="@+id/custom_toast_text"
-    android:layout_width="wrap_content"
-    android:layout_height="wrap_content"
-    android:background="@drawable/toast_background"
-    android:text="Custom Toast Message"
-    android:textColor="@color/white"
-    android:textSize="18sp" />
+        android:id="@+id/custom_toast_text"
+        android:layout_width="320dp"
+        android:layout_height="50dp"
+        android:background="@drawable/messages_shape"
+        android:text="Custom Toast Message"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="18sp" />
 
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
